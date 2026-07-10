@@ -1,4 +1,6 @@
-This repository contains C programs for Operating Systems.
+# Operating Systems 
+
+This repository contains C programs implementing fundamental Operating Systems concepts.
 
 ## Programs
 - Display Process ID
@@ -12,4 +14,5 @@ This repository contains C programs for Operating Systems.
 - Bounded Buffer
 - Average Waiting Time
 
-Language: C Programming
+## Language
+- C Programming
