@@ -40,7 +40,7 @@ write()-Writes data from memory into the specified file.
 (C)Pseudocode
 Start
 Open/Create file "student.txt"
-Write "Sanjana Sri" into file
+Write "Student name" into file
 Close file
 STOP
 
