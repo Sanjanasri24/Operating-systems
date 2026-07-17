@@ -1,0 +1,104 @@
+NAME: V SANJANA SRI
+REG NO: 192511084
+
+QUESTION 1 ANS:-
+(A) The suitable Operating System is a Multi-user Operating System.
+BENEFITS: It allows multiple users to access the same computer simultaneously.
+Each user can execute programs independently.
+The operating system shares CPU, memory, and storage efficiently among users.
+Linux is a common example of a multi-user operating system.
+
+(B)Process Scheduling
+Allocates CPU time to different processes and switches between them efficiently.
+Memory Management
+Allocates and deallocates memory while protecting each process from accessing another process's memory.
+
+(C)Pseudocode
+START
+Create child process 
+If child process then
+    Print Child Process ID
+    Print Parent Process ID
+Else
+    Print Parent Process ID
+    Print Child Process ID
+End If
+STOP
+
+QUESTION 2 ANS:-
+(A)Systemcalls required for file creation
+Operation	System    Call
+Create/Open File	  open()
+Write Data	        write()
+Read Data	          read()
+Close File	        close()
+
+(B)PURPOSE OF TWO FILE MANAGEMENT SYSTEM CALLS
+open()-Opens an existing file or creates a new file and returns a file descriptor.
+write()-Writes data from memory into the specified file.
+
+(C)Pseudocode
+Start
+Open/Create file "student.txt"
+Write "Sanjana Sri" into file
+Close file
+STOP
+
+QUESTION 3 ANS:-
+(A)System call required to copy contents from one file to another file 
+open()
+read()
+write()
+close()
+
+(B) Two file management system calls.
+1. read()-Reads data from the source file into a buffer.
+2. write()-Writes the buffered data into the destination file.
+
+(C)Pseudocode
+Start
+Open source file
+Open destination file
+While data is available
+    Read data from source
+    Write data to destination
+End While
+Close both files
+Stop
+
+QUESTION 4 ANS:-
+(A) fork()-Creates a new child process by duplicating the parent process.
+exec()-Replaces the current process with a new program.
+
+(B)Suspends the parent process until the child process finishes execution.
+Prevents the creation of zombie processes.
+Queues the upcoming process to prevent server crash.
+
+(C) Pseudocode 
+Start
+Create child process using fork()
+If child process then
+    Execute new program using exec()
+Else
+    Wait for child using wait()
+End If
+Stop
+
+
+QUESTION 5 ANS:-
+(A)Importance of file managemnt system:-
+Organizes files efficiently.
+Stores and retrieves data.
+Protects files from unauthorized access.
+Manages file space and directories.
+Easy accessible whenever required.
+
+(B) open()-Opens or creates a file and returns a file descriptor.
+   close()-Closes the opened file and releases system resources.
+
+(C)Pseudocode
+START
+Open file
+Read file contents
+Close file
+stop
