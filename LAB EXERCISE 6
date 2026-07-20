@@ -1,0 +1,20 @@
+//Preemptive Priority Scheduling
+#include <stdio.h>
+
+int main() {
+    int n, i, p[10], pr[10];
+
+    scanf("%d",&n);
+
+    for(i=0;i<n;i++){
+        p[i]=i+1;
+        scanf("%d",&pr[i]);
+    }
+
+    printf("Higher priority executes first:\n");
+
+    for(i=0;i<n;i++)
+        printf("P%d Priority=%d\n",p[i],pr[i]);
+
+    return 0;
+}
