@@ -1,19 +1,1 @@
-//Non-Preemptive SJF (Shortest Job First)
 
-#include <stdio.h>
-int main() {
-    int bt[5],i,j,t,n;
-    scanf("%d",&n);
-    for(i=0;i<n;i++) scanf("%d",&bt[i]);
-    for(i=0;i<n-1;i++)
-        for(j=i+1;j<n;j++)
-            if(bt[i]>bt[j]){
-                t=bt[i]; bt[i]=bt[j]; bt[j]=t;
-            }
-    for(i=0;i<n;i++) printf("%d ",bt[i]);
-}
-    for(i=0;i<n;i++)
-        printf("P%d ",p[i]);
-
-    return 0;
-}
